@@ -1,0 +1,1 @@
+java public class NarcissisticNumber { public static void main(String[] args) { for (int i = 100; i < 1000; i++) { int a = i / 100; // 百位数 int b = i / 10 % 10; // 十位数 int c = i % 10; // 个位数 if (a * a * a + b * b * b + c * c * c == i) { System.out.println(i + "是一个水仙
